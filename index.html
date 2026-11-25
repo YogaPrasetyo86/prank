@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0e2">
+  <title>Yoga & Suci | Pawiwahan Adat Jawa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&family=Italianno&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="music" loop preload="auto">
+    <source src="assets/VIDIO.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music" id="musicBtn" aria-label="Musik"><span>♫</span><small id="musicStatus">MUSIK
+      OFF</small></button>
+  <section class="cover" id="cover">
+    <div class="cover-bg"></div>
+    <div class="cover-overlay"></div>
+    <div class="cover-frame"></div>
+    <div class="cover-content">
+      <p class="kicker">THE ROYAL JAVANESE WEDDING</p>
+      <div class="top-flourish">❧ ✦ ❧</div>
+      <h1>Yoga Prasetyo <i>&</i><br>Suci Normawati</h1>
+      <p class="date">KAMIS · 25 SEPTEMBER 2031</p>
+      <div class="divider">✦ ━━━━━━━━━ ✦</div>
+      <p class="to">KEPADA YTH.</p>
+      <p class="guest" id="guest">Bapak/Ibu/Saudara/i</p>
+      <button id="open" class="open">BUKA UNDANGAN <span>❯</span></button>
+      <p class="bottom-caption">KARANGANYAR · SUMBERJO · SEMIN</p>
+    </div>
+  </section>
+
+  <main id="site" class="hidden">
+    <section class="chapter-intro">
+      <div class="chapter-image"></div>
+      <div class="chapter-shade"></div>
+      <div class="chapter-copy reveal">
+        <p class="kicker">SUGENG RAWUH</p>
+        <div class="big-ornament">꧁ ❖ ꧂</div>
+        <h2>Sebuah Kisah<br><i>Menuju Selamanya</i></h2>
+        <p>Dengan memohon rahmat dan ridho Allah SWT,<br>kami mengundang Anda dalam hari bahagia kami.</p><a
+          href="#mempelai" class="gold-link">MULAI MENJELAJAHI <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="quote-section parchment">
+      <div class="wayang-side left-wayang">♜</div>
+      <div class="wayang-side right-wayang">♜</div>
+      <p class="section-kicker">BISMILLAHIRRAHMANIRRAHIM</p>
+      <div class="ornament-line">✥ ━━━━━ ✥</div>
+      <h2>“Dan di antara tanda-tanda<br>kekuasaan-Nya ialah Dia menciptakan<br>pasangan hidup untukmu...”</h2>
+      <p class="verse">QS. Ar-Rum: 21</p>
+      <p class="intro-copy">Dengan penuh rasa syukur, kami bermaksud menyelenggarakan pernikahan putra-putri kami.
+        Merupakan kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa
+        restu.</p>
+    </section>
+
+    <section class="couple-section" id="mempelai">
+      <div class="section-kicker">THE BRIDE & THE GROOM</div>
+      <h2 class="section-title">Dua Insan, Satu Janji</h2>
+      <p class="section-sub">Dalam doa, restu keluarga, dan cinta yang tumbuh, kami memilih berjalan beriringan.</p>
+      <div class="couple-grid">
+        <article class="person reveal">
+          <div class="photo-frame" id="groomPhoto"><span>FOTO YOGA<br><small>assets/yoga.jpg</small></span></div>
+          <p class="role">THE GROOM</p>
+          <h3>Yoga Prasetyo</h3>
+          <p>Putra dari<br>Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+        </article>
+        <div class="couple-seal">꧁<i>&</i>꧂</div>
+        <article class="person reveal">
+          <div class="photo-frame" id="bridePhoto"><span>FOTO SUCI<br><small>assets/suci.jpg</small></span></div>
+          <p class="role">THE BRIDE</p>
+          <h3>Suci Normawati</h3>
+          <p>Putri dari<br>Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <p class="section-kicker">SAVE THE DATE</p>
+      <h2 class="section-title">Hari yang Dinantikan</h2>
+      <div class="countdown">
+        <div><b id="days">000</b><small>HARI</small></div><span>✦</span>
+        <div><b id="hours">00</b><small>JAM</small></div><span>✦</span>
+        <div><b id="minutes">00</b><small>MENIT</small></div><span>✦</span>
+        <div><b id="seconds">00</b><small>DETIK</small></div>
+      </div>
+      <p>25 September 2031 · Sebuah awal untuk selamanya</p>
+    </section>
+
+    <section class="event-section parchment">
+      <p class="section-kicker">WHEN & WHERE</p>
+      <h2 class="section-title">Pawiwahan</h2>
+      <div class="ornament-line">✥ ━━━━━ ✥</div>
+      <div class="event-grid">
+        <article class="event reveal">
+          <div class="event-icon">❖</div>
+          <p class="role">AKAD NIKAH</p>
+          <h3>08.00 WIB</h3>
+          <p>Kamis, 25 September 2031</p>
+          <div class="thin-line"></div>
+          <p class="venue">Karanganyar, Sumberjo,<br>Semin</p>
+        </article>
+        <article class="event reveal">
+          <div class="event-icon">❧</div>
+          <p class="role">RESEPSI</p>
+          <h3>11.00–13.00 WIB</h3>
+          <p>Kamis, 25 September 2031</p>
+          <div class="thin-line"></div>
+          <p class="venue">Karanganyar, Sumberjo,<br>Semin</p>
+        </article>
+      </div>
+      <p class="small-note">Alamat detail dan titik lokasi akan ditambahkan setelah tempat acara dipastikan.</p>
+      <a class="map" href="https://www.google.com/maps/search/?api=1&query=Karanganyar%2C%20Sumberjo%2C%20Semin"
+        target="_blank" rel="noopener">LIHAT LOKASI DI MAPS ↗</a>
+    </section>
+
+    <section class="story-section">
+      <p class="section-kicker">OUR STORY</p>
+      <h2 class="section-title">Lembar demi Lembar</h2>
+      <div class="story-list">
+        <article class="story reveal"><b>01</b>
+          <div><small>THE FIRST CHAPTER</small>
+            <h3>Awal Pertemuan</h3>
+            <p>Setiap kisah indah memiliki permulaan. Di sinilah cerita kami mulai ditulis.</p>
+          </div>
+        </article>
+        <article class="story reveal"><b>02</b>
+          <div><small>GROWING TOGETHER</small>
+            <h3>Saling Mengenal</h3>
+            <p>Belajar memahami, saling menguatkan, dan bertumbuh bersama dalam perjalanan.</p>
+          </div>
+        </article>
+        <article class="story reveal"><b>03</b>
+          <div><small>FOREVER BEGINS</small>
+            <h3>Menuju Selamanya</h3>
+            <p>Dengan doa keluarga, kami memilih mengikat janji dan melangkah bersama.</p>
+          </div>
+        </article>
+      </div>
+      <p class="small-note">Cerita ini masih berupa contoh dan dapat diganti dengan kisah kalian.</p>
+    </section>
+
+    <section class="gallery-section parchment">
+      <p class="section-kicker">MOMENTS TO REMEMBER</p>
+      <h2 class="section-title">Galeri Kenangan</h2>
+      <div class="gallery">
+        <div id="gallery1"><span>FOTO 1</span></div>
+        <div id="gallery2"><span>FOTO 2</span></div>
+        <div id="gallery3"><span>FOTO 3</span></div>
+      </div>
+    </section>
+
+    <section class="rsvp-section">
+      <p class="section-kicker">YOUR PRESENCE IS OUR HONOR</p>
+      <h2 class="section-title">Konfirmasi Kehadiran</h2>
+      <p class="section-sub">Doa dan kehadiran Anda adalah hadiah terindah bagi kami.</p>
+      <form id="rsvp"><label>Nama</label><input name="nama" required
+          placeholder="Nama Anda"><label>Konfirmasi</label><select name="status" required>
+          <option value="">Pilih konfirmasi</option>
+          <option>Hadir</option>
+          <option>Belum dapat hadir</option>
+        </select><label>Ucapan & doa</label><textarea name="pesan" rows="3"
+          placeholder="Tuliskan doa terbaik..."></textarea><button>KIRIM UCAPAN ✦</button><small>Atur nomor WhatsApp
+          tujuan pada script.js agar RSVP terkirim.</small></form>
+    </section>
+    <footer class="closing parchment">
+      <div class="big-ornament">꧁ ❖ ꧂</div>
+      <p class="section-kicker">WITH LOVE & GRATITUDE</p>
+      <h2>Yoga <i>&</i> Suci</h2>
+      <p>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p><strong>Matur
+        nuwun</strong><small>25 SEPTEMBER 2031 · YOGYAKARTA</small>
+    </footer>
+    <div class="copyright">© 2031 YOGA & SUCI · A ROYAL JAVANESE WEDDING</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
